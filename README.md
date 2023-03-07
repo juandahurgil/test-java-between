@@ -11,7 +11,7 @@
 
 ## About The Project
 
-`TEST-JAVA-BETWEEN` Get the right price by product.
+`TEST-JAVA-BETWEEN` Get the right price by product built with a hexagonal architecture.
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ execute GetPriceRestControllerTest.java class
 ```http://localhost:8080/api/v1/brands/1/products?applicationDate=2020-06-16T21:00:00&productId=35455```
 
 *Use class for http test*
-test_java_between-endpoints.http
+```test_java_between-endpoints.http```
 
 *Swagger for test*
 ```http://localhost:8080/swagger-ui/index.html```
