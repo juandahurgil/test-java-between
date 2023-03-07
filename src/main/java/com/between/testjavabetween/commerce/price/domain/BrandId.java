@@ -1,9 +1,6 @@
 package com.between.testjavabetween.commerce.price.domain;
 
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
+public record BrandId(Long id) {
 
-@Valid
-public record BrandId(@NotEmpty @NotBlank Long id) {
+    //TODO: respective business validations can be performed on the value object
 }

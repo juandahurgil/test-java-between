@@ -9,4 +9,6 @@ public class Product {
 
     private ProductId id;
     private String name;
+
+    //TODO: respective business validations can be carried out in the entity
 }

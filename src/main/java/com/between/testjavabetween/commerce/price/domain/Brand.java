@@ -10,4 +10,6 @@ public class Brand {
     private BrandId id;
     private String name;
     private String email;
+
+    //TODO: respective business validations can be carried out in the entity
 }

@@ -19,4 +19,6 @@ public class Price {
     private Date startDate;
     private Date endDate;
 
+    //TODO: respective business validations can be carried out in the entity
+
 }
